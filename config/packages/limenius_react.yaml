@@ -7,4 +7,9 @@ limenius_react:
         fail-loud: true
         mode: "external_server"
         server_bundle_path: "%kernel.project_dir%/var/webpack/app.js"
-        server_socket_path: "%kernel.project_dir%/var/node.sock"
+        # server_socket_path: "%kernel.project_dir%/var/node.sock"
+        server_socket_path: "tcp://127.0.0.1:8000"
+        cache:
+            enabled: false
+            # name of your app, it is the key of the cache where the snapshot will be stored.
+            key: "MovieList"
