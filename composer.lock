@@ -4,11 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-<<<<<<< HEAD
-    "content-hash": "1682c8cf530b44908da362f0aea60912",
-=======
     "content-hash": "a67d779a010df235f0d22cc7cc34fd2d",
->>>>>>> ssr-external
     "packages": [
         {
             "name": "doctrine/annotations",
