@@ -93,9 +93,18 @@ var unixServer = net.createServer(function(connection) {
   handler.handle(connection);
 });
 
+<<<<<<< HEAD
 unixServer.listen("var/node.sock");
+=======
+// unixServer.listen("var/node.sock");
+unixServer.listen(path.resolve('\\\\.\\pipe\\', 'var/node.sock'));
+>>>>>>> ssr-external
 
 process.on("SIGINT", () => {
   unixServer.close();
   process.exit();
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> ssr-external

@@ -1,4 +1,5 @@
 import ReactOnRails from "react-on-rails";
-import MoviesApp from "./MoviesApp";
-
-ReactOnRails.register({ MoviesApp });
+import MovieList from "./MovieList";
+require("../css/app.css");
+ 
+ReactOnRails.register({ MovieList });

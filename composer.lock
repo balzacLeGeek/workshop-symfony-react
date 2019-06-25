@@ -1,10 +1,14 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "1682c8cf530b44908da362f0aea60912",
+=======
+    "content-hash": "a67d779a010df235f0d22cc7cc34fd2d",
+>>>>>>> ssr-external
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -939,12 +943,12 @@
             "version": "v2.6.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/doctrine/doctrine2.git",
+                "url": "https://github.com/doctrine/orm.git",
                 "reference": "d2b4dd71d2a276edd65d0c170375b445f8a4a4a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/d2b4dd71d2a276edd65d0c170375b445f8a4a4a8",
+                "url": "https://api.github.com/repos/doctrine/orm/zipball/d2b4dd71d2a276edd65d0c170375b445f8a4a4a8",
                 "reference": "d2b4dd71d2a276edd65d0c170375b445f8a4a4a8",
                 "shasum": ""
             },
@@ -1332,6 +1336,7 @@
         },
         {
             "name": "limenius/react-bundle",
+<<<<<<< HEAD
             "version": "v2.1.0",
             "source": {
                 "type": "git",
@@ -1346,6 +1351,22 @@
             },
             "require": {
                 "limenius/react-renderer": "^2.1.0",
+=======
+            "version": "v3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Limenius/ReactBundle.git",
+                "reference": "a263459147832511fbf810840b86b7e9727f07e2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Limenius/ReactBundle/zipball/a263459147832511fbf810840b86b7e9727f07e2",
+                "reference": "a263459147832511fbf810840b86b7e9727f07e2",
+                "shasum": ""
+            },
+            "require": {
+                "limenius/react-renderer": "^3.0.0",
+>>>>>>> ssr-external
                 "php": ">=5.5.0",
                 "symfony/config": "^2.7.0|^3.0.6|^4.0",
                 "symfony/dependency-injection": "^2.7.0|^3.0.6|^4.0",
@@ -1377,6 +1398,7 @@
                 "isomorphic",
                 "react"
             ],
+<<<<<<< HEAD
             "time": "2018-01-29T20:35:51+00:00"
         },
         {
@@ -1391,6 +1413,22 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/Limenius/ReactRenderer/zipball/ff4dfdc4b60a9f5403c249946c38cbb4e278c9d4",
                 "reference": "ff4dfdc4b60a9f5403c249946c38cbb4e278c9d4",
+=======
+            "time": "2018-12-06T16:45:26+00:00"
+        },
+        {
+            "name": "limenius/react-renderer",
+            "version": "v3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Limenius/ReactRenderer.git",
+                "reference": "3387be293f19a6e3ca1ac88f12bffa41a101bac0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Limenius/ReactRenderer/zipball/3387be293f19a6e3ca1ac88f12bffa41a101bac0",
+                "reference": "3387be293f19a6e3ca1ac88f12bffa41a101bac0",
+>>>>>>> ssr-external
                 "shasum": ""
             },
             "require": {
@@ -1426,7 +1464,11 @@
                 "reactjs",
                 "twig"
             ],
+<<<<<<< HEAD
             "time": "2018-08-17T07:00:48+00:00"
+=======
+            "time": "2018-12-06T16:30:50+00:00"
+>>>>>>> ssr-external
         },
         {
             "name": "monolog/monolog",
@@ -3465,6 +3507,7 @@
             ],
             "description": "Enforces Long Term Supported versions of Symfony components",
             "homepage": "https://symfony.com",
+            "abandoned": "symfony/flex",
             "time": "2018-04-03T05:04:16+00:00"
         },
         {
@@ -4871,6 +4914,7 @@
                 "MIT"
             ],
             "description": "A pack for Symfony Encore",
+            "abandoned": "symfony/webpack-encore-bundle",
             "time": "2018-07-16T10:15:28+00:00"
         },
         {
