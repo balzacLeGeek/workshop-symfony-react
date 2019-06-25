@@ -94,7 +94,8 @@ var unixServer = net.createServer(function(connection) {
 });
 
 // unixServer.listen("var/node.sock");
-unixServer.listen(path.resolve('\\\\.\\pipe\\', 'var/node.sock'));
+//unixServer.listen(path.resolve('\\\\.\\pipe\\', 'var/node.sock'));
+unixServer.listen('var/node.sock');
 
 process.on("SIGINT", () => {
   unixServer.close();
